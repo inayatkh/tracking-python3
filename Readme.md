@@ -10,6 +10,7 @@ I will update the repository regullarly as soon as new algo is added to it
 ## Directory Structure:
 
 .
+
 ├──  tracking-py3 
 
 ├──  trackers
@@ -22,8 +23,9 @@ I will update the repository regullarly as soon as new algo is added to it
  
  
  
- ## Tracking Algos and some usefull utils
- 
+##  Tracking Algos and some Usefull utils
+ ---
+
 ### fastframerate.py 
 
 Following [1], here I include python code to show how to grab frames from video at a very hight frame per second (FPS)
@@ -56,9 +58,15 @@ This example, which is a single person tracker,  shows the use of Kalman Filter 
 #### usage: 
 
 	$ python kalmanhogtracker.py -v ./videos /boy-walking.mp4
-
-***
-***
+	
+	
+---
+---
+ 
+## Meanshift and Camshift 
+ 
+___
+___ 
 
 
 ## *References*
