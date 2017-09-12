@@ -7,12 +7,14 @@ In this repository I will give some implementation of tracking algorithms.
 I will update the repository regullarly as soon as new algo is added to it
 
 
-## Directory Structure:
+## Directory/ Folder Structure:
 
- -tracking-py3
- -- trackers
- -- utils
- -- videos
+.
+├──  tracking-py3
+├──  trackers
+|   └──
+├── utils
+├── videos
  
  
  
