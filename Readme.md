@@ -1,4 +1,7 @@
-#Tracking Using OpenCV and Python-3.5
+
+
+# Tracking Using OpenCV and Python-3.5
+
 
 In this repository I will give some implementation of tracking algorithms.
 I will update the repository regullarly as soon as new algo is added to it
@@ -15,7 +18,7 @@ I will update the repository regullarly as soon as new algo is added to it
  
  ## Tracking Algos and some usefull utils
  
-### -fastframerate.py 
+### fastframerate.py 
 
 Following [1], here I include python code to show how to grab frames from video at a very hight frame per second (FPS)
 
