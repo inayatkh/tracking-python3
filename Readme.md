@@ -51,6 +51,6 @@ This examples, shows the use of Kalman Filter for tracking along with Hog detect
 
 
 ## *References*
-1. [Pyimagesearch Adrian Rosebrock](http://www.learnopencv.com)  
+1. [Pyimagesearch Adrian Rosebrock](http://www.pyimagesearch.com/)  
  
-2.  [Learn OpenCV, Satya Mallick](http://www.pyimagesearch.com/)  
+2.  [Learn OpenCV, Satya Mallick](http://www.learnopencv.com)  
