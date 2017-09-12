@@ -22,7 +22,7 @@ I will update the repository regullarly as soon as new algo is added to it
 
 Following [1], here I include python code to show how to grab frames from video at a very hight frame per second (FPS)
 
-####usage: 
+#### usage: 
 
 	$ python fastframerate.py  -v ./videos /boy-walking.mp4
 
@@ -34,7 +34,7 @@ Following [1], here I include python code to show how to grab frames from video 
 
 This  example shows how  to use  hog detector for person detection at every frame.
 
-####usage: 
+#### usage: 
 
 	$ python hogdetectory.py -v ./videos /boy-walking.mp4
 ***
@@ -47,7 +47,7 @@ Kalman Filtering is a popular signal processing algo. It used to predict the loc
 
 This example, which is a single person tracker,  shows the use of Kalman Filter for tracking along with Hog detection for correction
 
-####usage: 
+#### usage: 
 
 	$ python kalmanhogtracker.py -v ./videos /boy-walking.mp4
 
