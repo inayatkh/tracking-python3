@@ -11,11 +11,17 @@ I will update the repository regullarly as soon as new algo is added to it
 
 .
 ├──  tracking-py3 
+
 	└──
+	
            ├──  trackers
+	   
 	   | 
+	   
 	   ├── utils
+	   
 	   | 
+	   
 	   ├── videos
 	    
  
