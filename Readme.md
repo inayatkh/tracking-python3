@@ -10,16 +10,14 @@ I will update the repository regullarly as soon as new algo is added to it
 ## Directory Structure:
 
 .
-
 ├──  tracking-py3 
-
-├──  trackers
-
-|   └──
-
-├── utils
-
-├── videos
+	└──
+           ├──  trackers
+	   | 
+	   ├── utils
+	   | 
+	   ├── videos
+	    
  
  
  
