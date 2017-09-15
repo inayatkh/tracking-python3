@@ -102,7 +102,13 @@ We will use the following steps for live tracking of face using web cam:
 	$ python meanShiftTrack.py
 	
 ### Tracking using CAMshift in OpenCV
-CAMshift tries to tackle the scale problem by using varying window size for applying meanshift. CamShift was developed by [Gary Bradski in 1998](http://dl.acm.org/citation.cfm?id=836819)
+CAMshift tries to tackle the scale problem by using varying window size for applying meanshift. CamShift was developed by [Gary Bradski in 1998](http://dl.acm.org/citation.cfm?id=836819).
+
+Steps 1 and 2 are the same as that of MeanShift. In the third step, we find the backproject image and then use CamShift() openCV function to track the position of the object in the new frame. This function finds the an object center using meanshift and then adjust the window size. This funciton returns the rotaed rectangle that includes the object position, size, and orientation.
+
+ #### usage: 
+
+	$ python CAMShiftTrack.py
 ___
 ___ 
 
