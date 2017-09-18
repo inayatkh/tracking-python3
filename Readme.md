@@ -112,6 +112,26 @@ Steps 1 and 2 are the same as that of MeanShift. In the third step, we find the 
 ___
 ___ 
 
+### Tracking by using OpenCV 3.2 Api and Python
+
+OpenCV 3.2 has its own implementation of the following six single object tracking methods:
+
+- BOOSTING based on online AdaBoost HAAR cascade detector
+- Multiple Instance Learning (MIL)
+- Kernelized Correlation Filters (KCF)
+- Tracking, Learning and Detection (TLD)
+- MedianFlow
+- GoTurn (Deep Learning Based tracker)
+
+#### usage: 
+
+	$ python trackeOneObject.py -t 0  
+	
+the input t specifies the methd:
+	0  for boosting, 1 for MKL, 2 for KCF, 3 for TLD, 4 for MedianFlow, and 5 for GOTURN
+	
+This code will track the face in the live video stream from webcam
+
 
 ## *References*
 
