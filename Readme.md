@@ -2,9 +2,7 @@
 
 # Tracking Using OpenCV >= 3.2 and Python-3.5
 
-
-In this repository I will give some implementation of tracking algorithms.
-I will update the repository regullarly as soon as new algo is added to it
+In this repository I will give some implementation of single object tracking algorithms. These include meanShift, CamShift, Boosting, MIL, KCF, TLD , GoTurn, and MedianFlow. Additionally I will show you how to grab frames at a very high FPS from camera and videos.
 
 
 ## Directory Structure:
