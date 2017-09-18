@@ -2,7 +2,7 @@
 
 # Tracking Using OpenCV >= 3.2 and Python-3.5
 
-In this repository I will give some implementation of single object tracking algorithms. These include meanShift, CamShift, Boosting, MIL, KCF, TLD , GoTurn, and MedianFlow. Additionally I will show you how to grab frames at a very high FPS from camera and videos.
+In this repository I will give some implementation of single and multiple object tracking algorithms. These include meanShift, CamShift, Boosting, MIL, KCF, TLD , GoTurn, and MedianFlow. Additionally I will show you how to grab frames at a very high FPS from camera and videos.
 
 
 ## Directory Structure:
@@ -121,7 +121,7 @@ OpenCV 3.2 has its own implementation of the following six single object trackin
 - MedianFlow
 - GoTurn (Deep Learning Based tracker)
 
-#### usage: 
+#### usage single object tracking: 
 
 	$ python trackeOneObject.py -t 0  
 	
@@ -129,6 +129,14 @@ the input t specifies the methd:
 	0  for boosting, 1 for MKL, 2 for KCF, 3 for TLD, 4 for MedianFlow, and 5 for GOTURN
 	
 This code will track the face in the live video stream from webcam
+
+
+#### usage multiple object tracking: 
+
+	$ python trackMultipleObjects.py -t 0  -v path-to-video-file
+	
+the input t specifies the methd:
+	0  for boosting, 1 for MKL, 2 for KCF, 3 for TLD, 4 for MedianFlow, and 5 for GOTURN
 
 
 ## *References*
